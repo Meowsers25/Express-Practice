@@ -15,6 +15,13 @@ app.get('/dog', function(req, res){
     res.send('MEOW!')
 })
 
+//use colon(:) to define route parameters
+app.get('/r/:subReddit', function(req, res){
+    // console.log(req)
+    let subreddit = req.params.subReddit
+    res.send(`WELCOME TO THE ${subreddit.toUpperCase()} PAGE`)
+})
+
 app.get('*', function(req, res){
     res.send('YOURE A STAR')
 })
