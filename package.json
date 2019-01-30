@@ -1,0 +1,19 @@
+{
+  "name": "firstexpressapp",
+  "version": "1.0.0",
+  "description": "Re learning Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meowsers25/Express-Practice.git"
+  },
+  "author": "Christian Lamothe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meowsers25/Express-Practice/issues"
+  },
+  "homepage": "https://github.com/Meowsers25/Express-Practice#readme"
+}
