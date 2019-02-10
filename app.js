@@ -1,4 +1,4 @@
-console.log('Our first Express app')
+console.log('Our first Express app is running....')
 const express = require('express')
 const app = express()
 
